@@ -1,0 +1,66 @@
+[
+    {
+        "model": "products.category",
+        "pk": 1,
+        "fields": {
+            "title": "Phone",
+            "description": "Категория телефоны предлагает широкий ассортимент передовых мобильных устройств, отражающих последние технологические достижения. Здесь вы найдете смартфоны различных производителей, обладающие передовыми функциями, высоким разрешением камер, мощными процессорами, долгим временем работы от аккумулятора и инновационными функциями, позволяющими удовлетворить любые потребности в современной мобильной технике."
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "title": "Laptop",
+            "description": "Категория ноутбуки представляет собой разнообразие передовых портативных компьютеров, спроектированных для различных потребностей пользователей. Здесь вы найдете широкий выбор ноутбуков от ведущих производителей, предлагающих высокую производительность, долгое время автономной работы, стильный дизайн и инновационные технологии. Независимо от того, нужен ли вам ноутбук для работы, учебы или развлечений, эта категория предоставляет разнообразные опции, чтобы удовлетворить ваши требования к портативному компьютеру."
+        }
+    },
+    {
+      "model": "products.product",
+      "pk": 1,
+      "fields": {
+        "title": "Smartphone X",
+        "description": "Powerful smartphone with advanced features",
+        "category": 1,
+        "date_time": "2023-12-12T08:00:00Z",
+        "price": "600",
+        "image": "https://i.pcmag.com/imagery/roundups/07ml3nh3QrzTLZ9UycfQQB2-52..v1696534815.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 2,
+      "fields": {
+        "title": "Laptop Pro",
+        "description": "High-performance laptop for professionals",
+        "category": 2,
+        "date_time": "2023-12-13T10:30:00Z",
+        "price": "900",
+        "image": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 3,
+      "fields": {
+        "title": "Iphone",
+        "description": "Powerful smartphone with advanced features",
+        "category": 1,
+        "date_time": "2023-12-12T08:00:00Z",
+        "price": "1200",
+        "image": "https://media.wired.com/photos/6500ad57fe61eb702d721b58/4:3/w_1913,h_1435,c_limit/Apple-iPhone-15-Pro-Hero-Gear.jpg"
+      }
+    },
+    {
+      "model": "products.product",
+      "pk": 4,
+      "fields": {
+        "title": "MacBook",
+        "description": "Powerful smartphone with advanced features",
+        "category": 1,
+        "date_time": "2023-12-12T08:00:00Z",
+        "price": "600",
+        "image": "https://login.kg/image/catalog/new/Notebook/Apple/MacBook%20Pro%2014%202021/5.jpg"
+      }
+    }
+]
