@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+{% block title %}Product Update{% endblock %}
+{% block content %}
+    <div class="container">
+        <h1>Update Product</h1>
+        <form method="post">
+            {% include 'partial/product_update_view.html' with button_text='Сохранить' %}
+            <div class="col-sm-9 offset-sm-3">
+                <a href="{% url 'products' %}" class="btn btn-secondary ms-3">Main page</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}
