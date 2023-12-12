@@ -24,7 +24,8 @@
         "category": 1,
         "date_time": "2023-12-12T08:00:00Z",
         "price": "600",
-        "image": "https://i.pcmag.com/imagery/roundups/07ml3nh3QrzTLZ9UycfQQB2-52..v1696534815.jpg"
+        "image": "https://i.pcmag.com/imagery/roundups/07ml3nh3QrzTLZ9UycfQQB2-52..v1696534815.jpg",
+        "left": 10
       }
     },
     {
@@ -36,7 +37,8 @@
         "category": 2,
         "date_time": "2023-12-13T10:30:00Z",
         "price": "900",
-        "image": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg"
+        "image": "https://media.wired.com/photos/64daad6b4a854832b16fd3bc/master/pass/How-to-Choose-a-Laptop-August-2023-Gear.jpg",
+        "left": 4
       }
     },
     {
@@ -48,7 +50,8 @@
         "category": 1,
         "date_time": "2023-12-12T08:00:00Z",
         "price": "1200",
-        "image": "https://media.wired.com/photos/6500ad57fe61eb702d721b58/4:3/w_1913,h_1435,c_limit/Apple-iPhone-15-Pro-Hero-Gear.jpg"
+        "image": "https://media.wired.com/photos/6500ad57fe61eb702d721b58/4:3/w_1913,h_1435,c_limit/Apple-iPhone-15-Pro-Hero-Gear.jpg",
+        "left": 28
       }
     },
     {
@@ -60,7 +63,21 @@
         "category": 1,
         "date_time": "2023-12-12T08:00:00Z",
         "price": "600",
-        "image": "https://login.kg/image/catalog/new/Notebook/Apple/MacBook%20Pro%2014%202021/5.jpg"
+        "image": "https://login.kg/image/catalog/new/Notebook/Apple/MacBook%20Pro%2014%202021/5.jpg",
+        "left": 1
       }
-    }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+          "title": "Samsung A52",
+          "description": "Powerful smartphone with advanced features",
+          "category": 1,
+          "date_time": "2023-12-12T08:00:00Z",
+          "price": "500",
+          "image": "https://login.kg/image/cache/catalog/new/Phones/Samsung/A52%204G/1-1200x800.jpg",
+          "left": 13
+        }
+      }
 ]
